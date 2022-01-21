@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">   
+    <title>Buscar Porckemon</title>
+	
+    <!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+  <link href="css/signin.css" rel="stylesheet">
+	
+  </head>
+  <body class="text-center">
+    
+<main class="form-search">
+
+  <form id="form">
+    <img class="mb-4" src="img/pokemon-inicio.svg" alt="" width="270" height="100">
+    <!-- <h1 class="h4 mb-3 fw-normal">¿Busca tu Pockemon?</h1> -->
+
+    <div class="form-floating">
+      <input type="text" class="form-control" id="texto" name="texto" required>
+      <label for="txtPockemonId">Nombre o ID</label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="button" id="btnBuscar">Consultar</button>
+ 
+  </form>
+  
+   &nbsp;
+  
+  <div class="card" style="width: 18rem;">
+  <img src="img/question_mark.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-title">Nombre</h2>  
+  </div>
+  <ul class="list-group list-group-flush">   
+    <li class="list-group-item">Tipo</li>
+    <li class="list-group-item">Experiencia Base</li>
+	<li class="list-group-item">Altura</li>
+    <li class="list-group-item">Peso</li> 
+	<li class="list-group-item">Habilidades</li>
+  </ul>
+ 
+</div>
+
+</main>
+
+<script src="js/app.js"></script>
+    
+  </body>
+</html>
